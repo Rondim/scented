@@ -1,0 +1,30 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority: /Users/dmitrytsydenov/.minikube/ca.crt
+    server: https://192.168.99.100:8443
+  name: minikube
+- cluster:
+    certificate-authority-data: LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSURJakNDQWdxZ0F3SUJBZ0lCQURBTkJna3Foa2lHOXcwQkFRc0ZBREJDTVVBd1BnWURWUVFERXpkeWIyOTAKTFdOaExuZHRjSGN5YUhwdWFqUXVaWFZ5YjNCbExYZGxjM1F6TFdNdE1TNWpiRzkxWkM1cmRXSmxjbTFoZEdsagpMbWx2TUI0WERURTRNRFV4TURBNU1ESXhORm9YRFRJNE1EVXdOekE1TURJeE5Gb3dRakZBTUQ0R0ExVUVBeE0zCmNtOXZkQzFqWVM1M2JYQjNNbWg2Ym1vMExtVjFjbTl3WlMxM1pYTjBNeTFqTFRFdVkyeHZkV1F1YTNWaVpYSnQKWVhScFl5NXBiekNDQVNJd0RRWUpLb1pJaHZjTkFRRUJCUUFEZ2dFUEFEQ0NBUW9DZ2dFQkFMdEdqQ0hqRDZBNwpNbm1YbEtPWVhGcFJCSzExUUEweTJuSXVqV0xLMEJQV0Vtd3p4dXdGcmJpMW9Eb1ptN1NlQnp0R0tJcWVPZXJaClU2dHVLaVJ4d0VNeFF2VkR4dk5EY3JsSkwwZm9OL2VWbEthTTA3UTNSVFlEbHRKcmI4bEFhd0dhRXVGUnRSMkoKanp6OUpVcFduZUM1NWczbFQ5b3EyOFp3VDN4K1dHWXhhcTJUZU9vbnpUY0tuS1A5ZGNlZEpEdkxYT2gwNnFQcAp3dGJ4UXdudGRGbW1HcVptYWZXYVJONi9VanR2Q2tlcWh2blZ4ckxVTXdzZEVCZHNWQ3VONUkxUkhvek1FYUxmCk5tOTdwalpBZmQ5Q1oxVUlnKzdsd1hCcHZRZ3ZaQTYvRFFub3RaMXNEOWlHSWs3R29iYTVZRVErdlRCMTVrSjIKT2tKSEN1Q3ZHcUVDQXdFQUFhTWpNQ0V3RGdZRFZSMFBBUUgvQkFRREFnS2tNQThHQTFVZEV3RUIvd1FGTUFNQgpBZjh3RFFZSktvWklodmNOQVFFTEJRQURnZ0VCQUxKNEhhNTM0cHlIM0t2OEw3L2NzWDVxckJoU005UFU5Y1ZoCkdKS1FZUkFxbEFZeXpDeXpzTUdlZlRma2ppeEp0S2FwOE1kSGNCSXRtdGhtbUVjN3M5MVhST0lPMjVTV1BuMGcKV0M1M1A4bGc5NzVRMG5Dc2kyQWFlYWtGQmcxSk13c0R1emVRaFJOcEdYYXNPWjlJZXg3eldPVTRsZWRiMHh1aApBWU5aY2kxSFB3OXphUTJOSmQ1RTZYOU5meWx6dWFUQU5Hd21ELzhxRkd1SU1YTXJoa2hsb0JZQi9xYnZMV1lYCit1Y2p5dXNmTEYxc1ZUWE9xTWdPQ0hoNWMrdTJ6c2hLVzBicCttZytTS1JxMVdnNEd5SHVoSndSUUxsWnlEWk8KRW5vcnptQVIxbXRNN0JZQWh6QkhkSU9uMlFpcFNDQlQvK2JNa3hCTnpVTTQ4V2QxaGZZPQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==
+    server: https://wmpw2hznj4.europe-west3-c-1.cloud.kubermatic.io:30266
+  name: wmpw2hznj4
+contexts:
+- context:
+    cluster: minikube
+    user: minikube
+  name: minikube
+- context:
+    cluster: wmpw2hznj4
+    user: wmpw2hznj4
+  name: wmpw2hznj4
+current-context: wmpw2hznj4
+kind: Config
+preferences: {}
+users:
+- name: minikube
+  user:
+    client-certificate: /Users/dmitrytsydenov/.minikube/client.crt
+    client-key: /Users/dmitrytsydenov/.minikube/client.key
+- name: wmpw2hznj4
+  user:
+    token: fdndh6.hr5l842t58ll8vmc
